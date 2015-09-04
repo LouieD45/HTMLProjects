@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>About GiG@</title>
+	<meta name="description" content="GiG@">
+	<meta name="author" content="GiG@ About">
+  
+	  <link rel="stylesheet" href="AltStyles.css">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link href='http://fonts.googleapis.com/css?family=Oswald:400,700|Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css'>
+  
+  <!---[if lt IE 9]
+  	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  [endif]--->
+</head>
+
+<body>
+	<!---<div class="splash fade-in">
+		<h1 class="splash-title fade-in">Welcome to GiG@</h1>
+		<a href="#" class="splash-arrow fade-in"><img src="down-arrow.png" alt="" /></a>
+	</div>--->
+	<div class="wrapper">
+	<header class="cf">
+			<h1><a href="Gig@hometest.html">GiG@</a></h1>
+			<nav>
+				<ul>
+					<li><a href="Gig@hometest.html">Home</a></li>
+					<li><a href="GiG@About.html" class="active">About</a></li>
+					<li><a href="GiG@SignupV1.html">Register</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+	</header>
+	
+	<section id="main-content">
+		<p>GiG@ allows you to find other artists and venues. Whether you're looking to collaborate on a new project, or booking shows for your next tour, GiG@ is the place to go.</p><br />
+		<hr />
+		<p>With GiG@, you can showcase your work, endorse awesome artists and venues you have experience with, and discover new venues and partners based on your current connections. And best of all, it's totally free!</p><br />
+		<hr />
+	</section
+
+	<footer>
+		<p>&copy; 2015 - GiG@</p>
+	</footer>
+	</div> <!-- END .wrapper -->
+
+<!---<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="main.js"></script>--->
+</body>
+</html>
