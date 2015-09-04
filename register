@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Register on GiG@</title>
+	<meta name="description" content="Signup">
+	<meta name="author" content="GiG@ Register">
+  
+	  <link rel="stylesheet" href="AltStyles.css">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link href='http://fonts.googleapis.com/css?family=Oswald:400,700|Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+        body {font-family:Arial, sans-serif;}
+        
+        #container {width:300px; margin:0; auto;}
+        
+        /*lines up the labels*/
+        form label {display:inline-block; width:240px;}
+        
+        form input[type="text"],
+        form input[type="password"],
+        form input[type="password confirm"],
+        form input[type="email"] {width:160px;}
+        
+        form .line {clear:both;}
+        form .line.submit {text-align:right;}
+    </style>
+  
+  <!---[if lt IE 9]
+  	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  [endif]--->
+</head>
+
+<body>
+	<!---<div class="splash fade-in">
+		<h1 class="splash-title fade-in">Welcome to GiG@</h1>
+		<a href="#" class="splash-arrow fade-in"><img src="down-arrow.png" alt="" /></a>
+	</div>--->
+	<div class="wrapper">
+	<header class="cf">
+			<h1><a href="Gig@hometest.html">GiG@</a></h1>
+			<nav>
+				<ul>
+					<li><a href="Gig@hometest.html">Home</a></li>
+					<li><a href="GiG@About.html">About</a></li>
+					<li><a href="GiG@SignupV1.html" class="active">Register</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+	</header>
+	
+	<section id="main-content">
+        <div id="container">
+            <form>
+                <h1>Create Login</h1><br />
+                <div class="line"><label for="username">Username *: </label><input type="text" id="username" /></div><br />
+                <div class="line"><label for="pwd">Password *: </label><input type="password" id="pwd" /></div><br />
+                <div class="line"><label for="cpwd">Confirm Password *: </label><input type="password confirm" id="pwd" /></div><br />
+                <div class="line"><label for="artistname">Artist Name *: </label><input type="text" id="artistname" /></div><br />
+                <div class="line"><label for="email">Email *: </label><input type="email" id="email" /></div><br />
+                <p>Please make sure all information is correct before registering. Fields marked with an asterisk (*) are required!</p><br />
+                <div class="line submit"><input type="submit" value="Submit" /></div>
+            </form>
+        </div>
+		
+	</section
+
+	<footer>
+		<p>&copy; 2015 - GiG@</p>
+	</footer>
+	</div> <!-- END .wrapper -->
+
+<!---<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="main.js"></script>--->
+</body>
+</html>
